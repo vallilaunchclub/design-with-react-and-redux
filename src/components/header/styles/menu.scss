@@ -1,0 +1,31 @@
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .menu{
+        padding:0px 20px;
+        .message-notifications{
+            padding: 5px 10px;
+            background-color: rgb(223, 238, 250);
+            font-size: 12px;
+            font-weight: 500;
+            color: rgb(24, 120, 230);
+        }
+    }
+    .user-icon{
+        width:40px;
+        height: 40px;
+        padding: 0px 0px 0px 90px;
+    }
+    .user.active{
+        width: 11px;
+        height: 11px;
+        background-color: rgb(150, 204, 70);
+        border-radius: 50%;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        border: 2px solid #fff;
+    }
+}

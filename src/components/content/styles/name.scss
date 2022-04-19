@@ -1,0 +1,48 @@
+.person-details{
+    display: flex;
+    width: 100%;
+    position: relative;
+    .name{
+        h1{
+            margin: 0px;
+            color:  rgb(83, 83, 83);
+        }
+        p{
+            margin: 5px 0px 0px;
+            color: rgb(24, 120, 230);
+            font-weight: 500;
+        }
+    }
+    .location{
+        color:  rgb(173, 173, 173);
+        padding: 12px 0px;
+        margin: 0 30px;
+        &-icon{
+            margin-right: 10px;
+        }
+        &-city{
+            font-weight: 500;
+            .city-name{
+                font-size: 14px;
+            }
+            .city-code{
+                font-size: 15px;
+            }
+        }
+    }
+    .book{
+        position: absolute;
+        right: 0px;
+        font-size: 18px;
+        padding: 5px 0px;
+        .bookmark{
+            color:  rgb(173, 173, 173);
+            margin-right: 10px;
+        }
+        .book-text{
+            font-size: 14px;
+            color:  rgb(173, 173, 173);
+        }
+    }
+    padding-bottom: 25px;
+}

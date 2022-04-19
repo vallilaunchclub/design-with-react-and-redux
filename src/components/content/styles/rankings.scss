@@ -1,0 +1,20 @@
+.rankings{
+    padding-bottom: 30px;
+    .title{
+        color:  rgb(173, 173, 173);
+        font-size: 12px;
+        font-weight: 700;
+    }
+    &-rank{
+        display: flex;
+        .number{
+            font-size: 26px;
+            font-weight: 700;
+            margin-right: 15px;
+        }
+        .ratings{
+            padding: 5px 0px;
+            color: rgb(24, 120, 230);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.brand{
+    display: flex;
+    padding: 0px 60px 0px 0px;
+    width: 200px;
+    .brand-logo{
+        border-radius: 50%;
+        height: 45px;
+        width: 45px;
+    }
+    .brand-name{
+        color: rgb(94, 94, 94);
+        margin: 0px;
+        padding: 10px 15px;
+    }
+}

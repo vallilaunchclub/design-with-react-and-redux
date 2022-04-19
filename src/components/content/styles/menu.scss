@@ -1,0 +1,46 @@
+.content-menu{
+    padding-bottom: 30px;
+    display: flex;
+    .messages{
+        color:  rgb(83, 83, 83);
+        margin-right: 20px;
+        padding: 10px 0;
+        &-icon{
+            margin-right: 10px;
+        }
+        &-title{
+            font-weight: 700;
+        }
+        &:hover {
+            border-bottom: 2px solid rgb(24, 120, 230);
+            background-color:rgb(24, 120, 230);
+        }
+    
+    }
+    .contacts{
+        color:  rgb(24, 120, 230);
+        margin-right: 20px;
+        padding: 10px 15px;
+        background-color: rgb(228, 238, 253);
+        &-icon{
+            margin-right: 10px;
+        }
+        &-title{
+            font-weight: 700;
+        }
+        &:hover {
+            border-bottom: 2px solid rgb(24, 120, 230);
+            background-color:rgb(228, 238, 253);
+        }
+    }
+    .report-user{
+        padding: 10px 15px;
+        font-size: 14px;
+        font-weight: 700;
+        color:  rgb(179, 179, 179);
+    &:hover {
+        border-bottom: 2px solid rgb(24, 120, 230);
+        background-color:rgb(24, 120, 230);
+    }
+}
+}
